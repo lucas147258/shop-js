@@ -13,7 +13,7 @@ async function getNovelList(){
                 <div class="product-info">
                     <h3>${novel.title}</h3>
                     <p>${novel.description}</p>
-                    <a href="/pages/detail/index.html?id=${novel.id}" class="btn">View</a>
+                    <a href="pages/detail/index.html?id=${novel.id}" class="btn">View</a>
                 </div>
             </div>`
     })

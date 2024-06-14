@@ -40,7 +40,7 @@ form.addEventListener('submit', (e) => {
                     password: password
                 }
                 sessionStorage.setItem('user', JSON.stringify(user));
-                window.location.href = '/pages/authenticate/login/index.html';
+                window.location.href = 'pages/authenticate/login/index.html';
             }else{
                 alert('Password does not match');
             }

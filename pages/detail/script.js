@@ -30,7 +30,7 @@ async function getDataDetail(){
             const user = localStorage.getItem('user');
             if(!user){
                 alert('Please login to buy');
-                return window.location.href = '/pages/authenticate/login/index.html';
+                return window.location.href = 'pages/authenticate/login/index.html';
             }
             let cart = localStorage.getItem('cart');
             if(cart){
